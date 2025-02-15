@@ -7,11 +7,11 @@ public class Printer1 {
         
 
         System.out.println("Before removal:");
-        System.err.println(directory.findStudent("Alice"));
+        System.out.println(directory.findStudent("Alice"));
         System.out.println(directory.getALLStudents());
         directory.removeStudent("Alice");
         System.out.println("After removal:");
-        System.err.println(directory.findStudent("Alice"));
+        System.out.println(directory.findStudent("Alice"));
         System.out.println(directory.getALLStudents());
 
     }
